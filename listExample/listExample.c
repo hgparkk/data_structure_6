@@ -64,7 +64,7 @@ void print_list(char* msg)
 	int i;
 	printf("%s[%2d]: ", msg, length);
 	for (i = 0;i < length;i++)
-		printf("%2d " , data[i]);
+		printf("%2d ", data[i]);
 	printf("\n");
 }
 
